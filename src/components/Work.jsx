@@ -68,7 +68,7 @@ export default function Work() {
           viewport={{ once: true }}
           className="text-[#3a0a0a]/40 font-mono text-xs tracking-widest uppercase max-w-[200px] text-right"
         >
-          Latest projects from Aafiya's creative desk
+          Latest projects from Akira's creative desk
         </motion.p>
       </div>
 

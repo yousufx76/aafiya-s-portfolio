@@ -125,7 +125,7 @@ export default function AdminPage() {
         <div className="w-full max-w-md flex flex-col gap-6">
           <div className="text-center">
             <h1 className="text-white font-black text-3xl tracking-widest uppercase">
-              AAFIYA <span className="text-[#C0392B]">ADMIN</span>
+              Akira <span className="text-[#C0392B]">ADMIN</span>
             </h1>
             <p className="text-white/30 font-mono text-xs tracking-widest uppercase mt-2">
               Restricted Access
@@ -171,7 +171,7 @@ export default function AdminPage() {
       <div className="flex justify-between items-center mb-12">
         <div>
           <h1 className="text-white font-black text-2xl tracking-widest uppercase">
-            AAFIYA <span className="text-[#C0392B]">ADMIN</span>
+            Akira <span className="text-[#C0392B]">ADMIN</span>
           </h1>
           <p className="text-white/30 font-mono text-xs tracking-widest mt-1">
             {user.email}

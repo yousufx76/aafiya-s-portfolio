@@ -28,8 +28,8 @@ export default function Footer() {
             className="flex flex-col gap-4"
           >
             <h2 className="text-white font-black text-5xl leading-none tracking-tight">
-              AAFIYA<br />
-              <span className="text-[#C0392B]">NOOR.</span>
+              Akira<br />
+              <span className="text-[#C0392B]">Nozomi.</span>
             </h2>
             <p className="text-white/30 font-mono text-xs tracking-widest uppercase leading-relaxed">
               Graphics Designer<br />
@@ -88,7 +88,7 @@ export default function Footer() {
                 Part of
               </p>
               <a
-                href="https://xanin-xz.vercel.app"
+                href="https://xaninxz.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#C0392B] hover:text-white font-black text-sm tracking-widest uppercase transition-colors duration-300"
@@ -105,7 +105,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-3 md:gap-0">
           <p className="text-white/20 font-mono text-[10px] tracking-widest uppercase">
-            © 2026 Aafiya Noor — All rights reserved
+            © 2026 Akira Nozomi — All rights reserved
           </p>
           <p className="text-white/20 font-mono text-[10px] tracking-widest uppercase text-left md:text-right">
             No direct contact available on this site.<br />

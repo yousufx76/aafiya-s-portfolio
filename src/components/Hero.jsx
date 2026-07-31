@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react"
 import { motion } from "framer-motion"
-import aafiya from "../assets/aafia-char.png"
+import Akira from "../assets/aafia-char.png"
 
 const ticker = ["Visual Identity", "Illustration", "UI Design", "Editorial", "Branding", "Logo Design", "Typography", "Digital Art"]
 
@@ -88,8 +88,8 @@ export default function Hero() {
           style={{ bottom: "-2px" }}
         >
           <img
-            src={aafiya}
-            alt="Aafiya Noor"
+            src={Akira}
+            alt="Akira Nozomi"
             className="h-[72vh] w-auto object-contain object-bottom block drop-shadow-2xl"
           />
         </motion.div>
@@ -101,7 +101,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="absolute bottom-14 left-6 z-30"
         >
-          <p className="text-[#3a0a0a] font-black text-sm tracking-[0.3em] uppercase">Aafiya Noor</p>
+          <p className="text-[#3a0a0a] font-black text-sm tracking-[0.3em] uppercase">Akira Nozomi</p>
           <p className="text-[#C0392B] text-[10px] tracking-widest uppercase font-mono">Graphics Designer — XANIN XZ</p>
         </motion.div>
       </div>
@@ -151,8 +151,8 @@ export default function Hero() {
           style={{ bottom: "-2px" }}
         >
           <img
-            src={aafiya}
-            alt="Aafiya Noor"
+            src={Akira}
+            alt="Akira Nozomi"
             className="h-[88vh] w-auto object-contain object-bottom block drop-shadow-2xl"
           />
         </motion.div>
@@ -199,7 +199,7 @@ export default function Hero() {
         transition={{ duration: 0.8, delay: 0.8 }}
         className="absolute bottom-12 left-10 z-30 hidden md:block"
       >
-        <p className="text-[#3a0a0a] font-black text-base tracking-[0.4em] uppercase">Aafiya Noor</p>
+        <p className="text-[#3a0a0a] font-black text-base tracking-[0.4em] uppercase">Akira Nozomi</p>
         <p className="text-[#C0392B] text-[10px] tracking-widest uppercase font-mono">Graphics Designer — XANIN XZ</p>
       </motion.div>
 

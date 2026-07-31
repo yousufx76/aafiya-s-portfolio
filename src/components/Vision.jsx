@@ -53,14 +53,14 @@ export default function Vision() {
             "Every pixel<br />is intentional."
           </h2>
           <p className="text-white/40 font-mono text-sm leading-relaxed max-w-xl">
-            Design is not decoration — it is communication. Aafiya approaches 
+            Design is not decoration — it is communication. Akira approaches 
             every project with precision, purpose, and a relentless commitment 
             to craft. From the first sketch to the final export.
           </p>
           <div className="flex items-center gap-3 mt-2">
             <span className="w-8 h-[1px] bg-[#C0392B]" />
             <span className="text-[#C0392B] font-mono text-xs tracking-widest uppercase">
-              Aafiya Noor — XANIN XZ
+              Akira Nozomi — XANIN XZ
             </span>
           </div>
         </motion.div>

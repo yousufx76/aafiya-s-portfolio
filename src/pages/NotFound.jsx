@@ -34,7 +34,7 @@ export default function NotFound() {
         {/* Chibi character */}
         <motion.img
           src={chibi}
-          alt="Lost Aafiya"
+          alt="Lost Akira"
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
@@ -58,7 +58,7 @@ export default function NotFound() {
             Page Not<br />Found.
           </h1>
           <p className="text-white/40 font-mono text-sm leading-relaxed max-w-sm">
-            Looks like Aafiya couldn't find this page either.<br />
+            Looks like Akira couldn't find this page either.<br />
             Even she's confused — and she designs everything around here.
           </p>
         </motion.div>
@@ -93,7 +93,7 @@ export default function NotFound() {
         >
           <span className="w-6 h-[1px] bg-[#C0392B]" />
           <span className="text-[#C0392B] font-mono text-[10px] tracking-widest uppercase">
-            Aafiya Noor — XANIN XZ
+            Akira Nozomi — XANIN XZ
           </span>
           <span className="w-6 h-[1px] bg-[#C0392B]" />
         </motion.div>

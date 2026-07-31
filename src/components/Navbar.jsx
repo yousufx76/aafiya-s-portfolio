@@ -32,7 +32,7 @@ export default function Navbar() {
         <div className="flex items-center gap-3">
           <img src="/logo.png" alt="AN Logo" className="w-7 h-7 md:w-8 md:h-8 object-contain" />
           <span className="text-[#3a0a0a] font-black text-base md:text-xl tracking-widest uppercase">
-            AAFIYA <span className="text-[#C0392B]">NOOR</span>
+            Akira <span className="text-[#C0392B]">Nozomi</span>
           </span>
         </div>
 
@@ -53,7 +53,7 @@ export default function Navbar() {
 
         {/* Desktop CTA */}
         <a
-          href="https://xanin-xz.vercel.app"
+          href="https://xaninxz.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:flex items-center gap-2 border border-[#C0392B] text-[#C0392B] text-xs font-bold tracking-widest uppercase px-5 py-2 hover:bg-[#C0392B] hover:text-white transition-all duration-300"
@@ -112,7 +112,7 @@ export default function Navbar() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
-              href="https://xanin-xz.vercel.app"
+              href="https://xaninxz.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-[#C0392B] text-[#C0392B] text-xs font-bold tracking-widest uppercase px-8 py-3 mt-4"

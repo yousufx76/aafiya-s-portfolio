@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 const facts = [
   { label: "Based in", value: "Dhaka, Bangladesh" },
   { label: "Role", value: "Graphics Designer" },
-  { label: "Team", value: "XANIN XZ" },
+  { label: "Team", value: "" },
   { label: "Specialty", value: "Visual Identity & Branding" },
   { label: "Status", value: "Available for Projects" },
 ]
@@ -24,22 +24,22 @@ const downloadCV = async () => {
 
   cvDiv.innerHTML = `
     <div style="border-bottom: 2px solid #C0392B; padding-bottom: 28px; margin-bottom: 36px;">
-      <div style="font-size: 52px; font-weight: 900; letter-spacing: -2px; line-height: 1;">AAFIYA <span style="color:#C0392B">NOOR.</span></div>
+      <div style="font-size: 52px; font-weight: 900; letter-spacing: -2px; line-height: 1;">Akira <span style="color:#C0392B">Nozomi.</span></div>
       <div style="font-size: 10px; letter-spacing: 4px; text-transform: uppercase; color: #C0392B; margin-top: 10px;">— Graphics Designer / Visual Artist</div>
-      <div style="font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #1a0a0a99; margin-top: 6px;">Hemayetpur, Savar, Dhaka, Bangladesh &nbsp;|&nbsp; XANIN XZ</div>
+      <div style="font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #1a0a0a99; margin-top: 6px;">Hemayetpur, Savar, Dhaka, Bangladesh &nbsp;|&nbsp; </div>
     </div>
 
     <div style="margin-bottom: 28px;">
       <div style="font-size: 10px; letter-spacing: 4px; text-transform: uppercase; color: #C0392B; margin-bottom: 12px;">// About</div>
-      <p style="font-size: 12px; line-height: 1.8; color: #1a0a0a99;">Creative mind behind the visuals at XANIN XZ. Aafiya brings ideas to life through clean design, bold typography and purposeful aesthetics. From brand identities to digital art — every pixel is intentional.</p>
+      <p style="font-size: 12px; line-height: 1.8; color: #1a0a0a99;">Creative mind behind the visuals at . Akira brings ideas to life through clean design, bold typography and purposeful aesthetics. From brand identities to digital art — every pixel is intentional.</p>
     </div>
 
     <div style="margin-bottom: 28px;">
       <div style="font-size: 10px; letter-spacing: 4px; text-transform: uppercase; color: #C0392B; margin-bottom: 12px;">// Experience</div>
       <div style="margin-bottom: 16px;">
         <div style="font-size: 16px; font-weight: 900;">Graphics Designer</div>
-        <div style="font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #C0392B; margin: 4px 0;">XANIN XZ — 2023 → Present</div>
-        <p style="font-size: 12px; line-height: 1.8; color: #1a0a0a99;">Lead visual designer for the XANIN XZ creative team. Responsible for brand identities, digital art, typography systems, and visual direction across all projects.</p>
+        <div style="font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #C0392B; margin: 4px 0;"> — 2023 → Present</div>
+        <p style="font-size: 12px; line-height: 1.8; color: #1a0a0a99;">Lead visual designer for the  creative team. Responsible for brand identities, digital art, typography systems, and visual direction across all projects.</p>
       </div>
       <div>
         <div style="font-size: 16px; font-weight: 900;">Freelance Visual Designer</div>
@@ -68,7 +68,7 @@ const downloadCV = async () => {
       <div style="font-size: 10px; letter-spacing: 4px; text-transform: uppercase; color: #C0392B; margin-bottom: 12px; grid-column: span 2;">// Details</div>
       ${[
       ["Location", "Savar, Dhaka, BD"],
-      ["Team", "XANIN XZ"],
+      ["Team", ""],
       ["Experience", "3+ Years"],
       ["Projects", "50+ Completed"],
       ["Specialty", "Visual Identity"],
@@ -82,8 +82,8 @@ const downloadCV = async () => {
     </div>
 
     <div style="border-top: 1px solid #C0392B33; padding-top: 20px; display: flex; justify-content: space-between; align-items: center;">
-      <span style="font-size:10px; letter-spacing:2px; text-transform:uppercase; color:#1a0a0a55;">© 2026 Aafiya Noor — All rights reserved</span>
-      <span style="font-weight:900; font-size:13px; letter-spacing:4px; text-transform:uppercase; color:#C0392B;">XANIN XZ</span>
+      <span style="font-size:10px; letter-spacing:2px; text-transform:uppercase; color:#1a0a0a55;">© 2026 Akira Nozomi — All rights reserved</span>
+      <span style="font-weight:900; font-size:13px; letter-spacing:4px; text-transform:uppercase; color:#C0392B;"></span>
     </div>
   `
 
@@ -116,7 +116,7 @@ const downloadCV = async () => {
     heightLeft -= pageHeight
   }
 
-  pdf.save("Aafiya-Noor-CV.pdf")
+  pdf.save("Akira-Nozomi-CV.pdf")
 }
 
 export default function About() {
@@ -145,12 +145,12 @@ export default function About() {
           <div className="absolute -top-4 -left-4 w-full h-full border border-[#C0392B] z-0" />
           <img
             src="https://res.cloudinary.com/dtbktsy5v/image/upload/v1779265298/aafia-about.png"
-            alt="Aafiya Noor"
+            alt="Akira Nozomi"
             className="relative z-10 w-full object-cover"
           />
           <div className="absolute bottom-0 left-0 z-20 bg-[#C0392B] px-4 py-2">
-            <p className="text-white text-xs font-black tracking-widest uppercase">Aafiya Noor</p>
-            <p className="text-white/70 text-[10px] font-mono tracking-widest">XANIN XZ — Visual Designer</p>
+            <p className="text-white text-xs font-black tracking-widest uppercase">Akira Nozomi</p>
+            <p className="text-white/70 text-[10px] font-mono tracking-widest"> — Visual Designer</p>
           </div>
         </motion.div>
 
@@ -172,7 +172,7 @@ export default function About() {
           </div>
 
           <p className="text-white/50 text-sm leading-relaxed font-mono">
-            Creative mind behind the visuals at XANIN XZ. Aafiya brings ideas
+            Akira brings ideas
             to life through clean design, bold typography and purposeful
             aesthetics. From brand identities to digital art — every pixel
             is intentional.
@@ -194,7 +194,7 @@ export default function About() {
           <div className="flex items-center gap-3 mt-2">
             <span className="w-8 h-[1px] bg-[#C0392B]" />
             <span className="text-[#C0392B] text-xs font-black tracking-[0.3em] uppercase">
-              Member of XANIN XZ
+              Member of 
             </span>
           </div>
 

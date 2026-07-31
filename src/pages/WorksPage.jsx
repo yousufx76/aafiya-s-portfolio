@@ -55,10 +55,10 @@ export default function WorksPage() {
           ← Back
         </button>
         <div className="font-black text-[#3a0a0a] text-lg tracking-widest uppercase">
-          AAFIYA <span className="text-[#C0392B]">NOOR</span>
+          Akira <span className="text-[#C0392B]">Nozomi</span>
         </div>
         <a
-          href="https://xanin-xz.vercel.app"
+          href="https://xaninxz.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-[#C0392B] font-mono text-xs tracking-widest uppercase hover:text-[#3a0a0a] transition-colors duration-300"
@@ -186,7 +186,7 @@ export default function WorksPage() {
       {/* Footer Strip */}
       <div className="w-full bg-[#C0392B] py-3 flex justify-center">
         <p className="text-white font-mono text-[10px] tracking-widest uppercase">
-          Aafiya Noor — XANIN XZ © 2026
+          Akira Nozomi — XANIN XZ © 2026
         </p>
       </div>
 
